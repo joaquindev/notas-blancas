@@ -1,0 +1,26 @@
+{
+  "name": "Notas Blancas",
+  "version": "0.0.1",
+  "homepage": "https://github.com/joaquindev/notas-blancas",
+  "authors": [
+    "JoaquinDev <joaquin@isla.io>"
+  ],
+  "description": "Notas blancas. An SPA which shows you your notes in a clean and minimal way",
+  "main": "index.html",
+  "keywords": [
+    "animate.css",
+    "spa"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.0"
+  }
+}
