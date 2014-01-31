@@ -62,7 +62,7 @@ input, select, button, textarea {
 /* --------------- *\
   $TYPOGRAPHY
 \* --------------- */
-/*
+
 h1, .alpha {
   margin-bottom: 1.5rem;
 
@@ -104,7 +104,8 @@ hr {
   margin-top: -1px;
   height: 1px; 
   background-color: #c0c8c9;
-  background-image: -webkit-linear-gradient(0deg, #fff, #c0c8c9, #fff);
+  /*background-image: -webkit-linear-gradient(0deg, #fff, #c0c8c9, #fff);*/
+  background-image: -webkit-linear-gradient(0deg, #000, #000, #000);
 }
 
 a {
@@ -116,7 +117,7 @@ a {
 a:hover {
   color: #f35625;
 }
-*/
+
 
 /* --------------- *\
   $LAYOUT
@@ -180,7 +181,8 @@ html {
 
 .site__title {
   color: #f35626;
-  background-image: -webkit-linear-gradient(93deg, #f35626, #feab3a);
+  /*background-image: -webkit-linear-gradient(93deg, #f35626, #feab3a);*/
+  background-image: -webkit-linear-gradient(93deg, #2F4F4F, #000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation: hue 60s infinite linear;
